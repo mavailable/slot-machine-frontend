@@ -1,0 +1,49 @@
+{
+  "id": "tiki",
+  "name": "Tiki Paradise",
+  "ui": {
+    "background": {
+      "gradient": "radial-gradient(1400px 900px at 20% 15%, #174a4a 0%, #0a2a2a 40%, #061a1a 100%)"
+    },
+    "hud": {
+      "bg": "rgba(3, 30, 34, 0.18)",
+      "border": "rgba(255,255,255,0.06)",
+      "blur": 12,
+      "text": "#ECFFFB",
+      "label": "#C8F4EC",
+      "accent": "#00f5d4",
+      "font": {
+        "family": "",
+        "files": []
+      }
+    },
+    "glass": {
+      "blur": 18,
+      "tint": 0.1
+    },
+    "accent": "#7c9aff",
+    "accent2": "#00f5d4"
+  },
+  "symbolsType": "emoji",
+  "symbols": [
+    "🥥",
+    "🌴",
+    "🎸",
+    "🐠",
+    "🍹",
+    "🌸",
+    "🪙"
+  ],
+  "audio": {
+    "ambient": "",
+    "effects": {
+      "spin": "",
+      "reelStop": "",
+      "win": "",
+      "bigWin": "",
+      "jackpot": "",
+      "buttonClick": "",
+      "error": ""
+    }
+  }
+}

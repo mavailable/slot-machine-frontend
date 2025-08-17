@@ -1,0 +1,28 @@
+{
+  "themes": [
+    { "id": "vegas",                "name": "Las Vegas" },
+    { "id": "pirate",               "name": "Pirate" },
+    { "id": "island-fortune",       "name": "Island Fortune" },
+    { "id": "las-vegas-nights",     "name": "Las Vegas Nights" },
+    { "id": "lucky-horseshoe",      "name": "Lucky Horseshoe" },
+    { "id": "golden-dragon",        "name": "Golden Dragon" },
+    { "id": "tiki",                 "name": "Tiki Island" },
+    { "id": "pirates-treasure",     "name": "Pirate’s Treasure" },
+    { "id": "space-fortune",        "name": "Space Fortune" },
+    { "id": "lucky-tiger",          "name": "Lucky Tiger" },
+    { "id": "viking-gold",          "name": "Viking Gold" },
+    { "id": "pharaohs-gold",        "name": "Pharaoh’s Gold" },
+    { "id": "cyberpunk-city",       "name": "Cyberpunk City" },
+    { "id": "jungle-jackpot",       "name": "Jungle Jackpot" },
+    { "id": "arabian-nights",       "name": "Arabian Nights" },
+    { "id": "japanese-street-vibes","name": "Japanese Street Vibes" },
+    { "id": "alien-casino",         "name": "Alien Casino" },
+    { "id": "royal-circus",         "name": "Royal Circus" },
+    { "id": "banana-jackpot",       "name": "Banana Jackpot" },
+    { "id": "wild-west-gold-rush",  "name": "Wild West Gold Rush" },
+    { "id": "mafia-boss",           "name": "Mafia Boss" },
+    { "id": "colline-des-leprechauns", "name": "Colline des Leprechauns" },
+    { "id": "foret-enchantee",         "name": "Forêt Enchantée" },
+    { "id": "royaume-des-bonbons",     "name": "Royaume des Bonbons" }
+  ]
+}

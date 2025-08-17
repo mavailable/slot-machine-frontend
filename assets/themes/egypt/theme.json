@@ -1,0 +1,49 @@
+{
+  "id": "egypt",
+  "name": "Golden Sands",
+  "ui": {
+    "background": {
+      "gradient": "radial-gradient(1400px 900px at 20% 15%, #4f3824 0%, #362414 45%, #24170c 100%)"
+    },
+    "hud": {
+      "bg": "rgba(50, 26, 9, 0.20)",
+      "border": "rgba(255,255,255,0.08)",
+      "blur": 12,
+      "text": "#FFF6E0",
+      "label": "#EAD3A8",
+      "accent": "#ffd166",
+      "font": {
+        "family": "",
+        "files": []
+      }
+    },
+    "glass": {
+      "blur": 18,
+      "tint": 0.12
+    },
+    "accent": "#ffd166",
+    "accent2": "#ffe08a"
+  },
+  "symbolsType": "emoji",
+  "symbols": [
+    "🐫",
+    "⚱️",
+    "🦂",
+    "💎",
+    "📜",
+    "🔱",
+    "⭐"
+  ],
+  "audio": {
+    "ambient": "",
+    "effects": {
+      "spin": "",
+      "reelStop": "",
+      "win": "",
+      "bigWin": "",
+      "jackpot": "",
+      "buttonClick": "",
+      "error": ""
+    }
+  }
+}
