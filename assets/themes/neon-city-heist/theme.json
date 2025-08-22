@@ -1,0 +1,46 @@
+{
+  "id": "neon-city-heist",
+  "name": "Neon City Heist",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/brouilleur-holographique.png",
+    "symbols/carte-d-acces.png",
+    "symbols/cle-magnetique.png",
+    "symbols/coffre-fort-neon.png",
+    "symbols/diamant-prismatique.png",
+    "symbols/drone-sentinelle.png",
+    "symbols/embleme-foudre.png",
+    "symbols/grappin-magnetique.png",
+    "symbols/grille-laser.png",
+    "symbols/lingot-iridescent.png",
+    "symbols/puce-quantique.png",
+    "symbols/sac-de-butin.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/background.jpg",
+      "color": "#0B0F1A",
+      "gradient": "radial-gradient(1200px 800px at 75% 20%, rgba(0,229,255,0.12) 0%, rgba(255,47,214,0.10) 35%, #0B0F1A 80%)"
+    },
+    "hud": {
+      "bg": "rgba(10,16,35,0.72)",
+      "text": "#E6F1FF",
+      "label": "#A5B4FF",
+      "accent": "#00E5FF",
+      "blur": 12
+    },
+    "glass": {
+      "blur": 16,
+      "tint": "rgba(8,12,24,0.35)"
+    },
+    "accent": "#FF2FD6",
+    "accent2": "#00E5FF"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

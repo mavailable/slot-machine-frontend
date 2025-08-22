@@ -1,0 +1,46 @@
+{
+  "id": "fairy-forest",
+  "name": "Forêt féerique",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/baton-runique.png",
+    "symbols/champignon-luminescent.png",
+    "symbols/cle-de-lianes.png",
+    "symbols/cristal-irise.png",
+    "symbols/embleme-lunaire.png",
+    "symbols/feuille-spiralee.png",
+    "symbols/fiole-lumineuse.png",
+    "symbols/fleur-de-lune.png",
+    "symbols/gland-enchante.png",
+    "symbols/halo-de-lucioles.png",
+    "symbols/opale-sylvestre.png",
+    "symbols/pierre-runique.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/background.jpg",
+      "color": "#0B1F16",
+      "gradient": "linear-gradient(180deg,#0B1F16 0%,#132A20 100%)"
+    },
+    "hud": {
+      "bg": "rgba(16,38,29,0.72)",
+      "text": "#eaf7f2",
+      "label": "#bdeee0",
+      "accent": "#7ef0d3",
+      "blur": 14
+    },
+    "glass": {
+      "blur": 10,
+      "tint": "rgba(12,28,22,0.35)"
+    },
+    "accent": "#7EF0D3",
+    "accent2": "#C7A4FF"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

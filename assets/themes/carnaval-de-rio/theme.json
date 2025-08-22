@@ -1,0 +1,28 @@
+{
+  "id": "carnaval-de-rio",
+  "name": "Carnaval de Rio",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(11, 18, 48, 0.9)",
+      "text": "#EAF4FF",
+      "label": "#FFDF00",
+      "accent": "#00FFD1"
+    },
+    "accent": "#FFB300",
+    "accent2": "#FF2E8B"
+  }
+}

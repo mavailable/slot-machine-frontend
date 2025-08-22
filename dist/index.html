@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Slot Frontend — Banana Jackpot</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-DptJHuMh.css">
+</head>
+<body class="ui-hidden">
+  <!-- RFID WAIT OVERLAY -->
+  <div id="rfidOverlay" class="rfid-overlay show" aria-hidden="false">
+    <div class="rfid-scene">
+      <div class="rfid-card">
+        <div class="rfid-chip"></div>
+        <div class="rfid-logo">RFID</div>
+      </div>
+      <div class="rfid-waves">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <div class="rfid-text">
+        <h1>En attente d'un badge</h1>
+        <p>Approchez votre badge RFID<br/><span class="hint">(Appuyez sur B pour simuler)</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- HUD (Crédit / Mise / Gain) — thémé et positionné bas-gauche -->
+  <div class="hud-floating" id="hud">
+    <!-- AJOUT ICI: hud-compact -->
+    <div class="hud-card hud-compact">
+      <div class="hud-grid">
+        <div class="hud-label">Crédit</div>
+        <div class="hud-value" id="creditValue">1000</div>
+
+        <div class="hud-label">Mise</div>
+        <div class="bet-controls">
+          <button class="btn hud" id="minusBetBtn" aria-label="Diminuer la mise">−</button>
+          <div class="hud-value" id="betValue">10</div>
+          <button class="btn hud" id="plusBetBtn" aria-label="Augmenter la mise">+</button>
+        </div>
+
+        <div class="hud-label">Gain</div>
+        <div class="hud-value" id="winValue">0</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Machine -->
+  <div class="app">
+    <div class="stage">
+      <div class="machine">
+        <div class="reels" id="reels"></div>
+      </div>
+
+      <!-- LIGNE HOLD + START -->
+      <div class="holds">
+        <div class="holds-row">
+          <button class="btn hold-btn" data-hold="0">Hold 1</button>
+          <button class="btn hold-btn" data-hold="1">Hold 2</button>
+          <button class="btn hold-btn" data-hold="2">Hold 3</button>
+          <button class="btn hold-btn" data-hold="3">Hold 4</button>
+          <button class="btn hold-btn" data-hold="4">Hold 5</button>
+
+          <button id="spinBtn" class="btn big primary start-in-row">Lancer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="devPanel" class="dev-panel"></div>
+  <script src="script.js"></script>
+</body>
+</html>

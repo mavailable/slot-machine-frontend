@@ -1,0 +1,46 @@
+{
+  "id": "starlight-frontier",
+  "name": "Starlight Frontier",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/beacon-flare.png",
+    "symbols/carbon-weave.png",
+    "symbols/cockpit-toggle.png",
+    "symbols/comms-antenna.png",
+    "symbols/docking-clamp.png",
+    "symbols/fuel-cell.png",
+    "symbols/ion-crystal.png",
+    "symbols/navigation-ring.png",
+    "symbols/plasma-wrench.png",
+    "symbols/quantum-core.png",
+    "symbols/star-map-holo.png",
+    "symbols/thruster-plume.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "",
+      "color": "",
+      "gradient": "radial-gradient(900px at 50% 20%, #141A3B 0%, #0B1020 65%)"
+    },
+    "hud": {
+      "bg": "rgba(10,16,36,0.68)",
+      "text": "#E8F1FF",
+      "label": "#9DB3FF",
+      "accent": "#2FE1FF",
+      "blur": 14
+    },
+    "glass": {
+      "blur": 18,
+      "tint": "rgba(20,26,59,0.38)"
+    },
+    "accent": "#2FE1FF",
+    "accent2": "#FF4BD1"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "castle-dungeon-escape",
+  "name": "Castle Dungeon Escape",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/heraldic-shield.png",
+    "symbols/iron-padlock.png",
+    "symbols/rusty-chain.png",
+    "symbols/skeleton-key.png",
+    "symbols/wall-lever.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/background.jpg",
+      "color": "#0E1116",
+      "gradient": ""
+    },
+    "hud": {
+      "bg": "rgba(14,17,22,0.72)",
+      "text": "#E6EDF3",
+      "label": "#A7B0BE",
+      "accent": "#D9A441",
+      "blur": 12
+    },
+    "glass": {
+      "blur": 10,
+      "tint": "rgba(14,17,22,0.4)"
+    },
+    "accent": "#3B8EA5",
+    "accent2": "#D9A441"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

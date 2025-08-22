@@ -1,0 +1,46 @@
+{
+  "id": "greek-myths",
+  "name": "Greek Myths",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/bronze-helmet.png",
+    "symbols/forge-hammer.png",
+    "symbols/golden-lyre.png",
+    "symbols/greek-key-motif.png",
+    "symbols/hydra-scale.png",
+    "symbols/laurel-wreath.png",
+    "symbols/lightning-bolt.png",
+    "symbols/marble-column.png",
+    "symbols/olive-branch.png",
+    "symbols/pegasus-wing.png",
+    "symbols/sapphire-gem.png",
+    "symbols/trident-emblem.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/aegean-marble-temple.png",
+      "color": "#F2EBDD",
+      "gradient": "linear-gradient(180deg,#F2EBDD 0%,#E9DFC8 100%)"
+    },
+    "hud": {
+      "bg": "rgba(20,26,34,0.72)",
+      "text": "#F7F3E7",
+      "label": "#D9C58A",
+      "accent": "#C8A24D",
+      "blur": 14
+    },
+    "glass": {
+      "blur": 8,
+      "tint": "rgba(242,235,221,0.22)"
+    },
+    "accent": "#C8A24D",
+    "accent2": "#2E6E8A"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

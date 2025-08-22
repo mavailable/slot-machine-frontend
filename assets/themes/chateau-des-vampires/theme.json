@@ -1,0 +1,28 @@
+{
+  "id": "chateau-des-vampires",
+  "name": "Château des Vampires",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(7,10,14,0.90)",
+      "text": "#e6edf3",
+      "label": "#c2a14a",
+      "accent": "#b11226"
+    },
+    "accent": "#c0c7cf",
+    "accent2": "#a67c2e"
+  }
+}

@@ -3,55 +3,26 @@
   "name": "Island Fortune",
   "symbolsType": "image",
   "symbols": [
-    "symbols/87c23252-7cd5-4cc1-bc9b-d2f66ea7dde6.png",
-    "symbols/island-fortune_cocktail-avec-parasol.png",
-    "symbols/island-fortune_cocktail-tropical.png",
-    "symbols/island-fortune_collier-de-fleurs.png",
-    "symbols/island-fortune_noix-de-coco.png",
-    "symbols/island-fortune_palmier.png",
-    "symbols/island-fortune_poisson-tropical.png",
-    "symbols/island-fortune_tiki.png",
-    "symbols/island-fortune_ukulele.png"
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
   ],
   "ui": {
     "background": {
-      "image": "background/bg.png"
+      "image": "background/bg.webp"
     },
     "hud": {
-      "bg": "rgba(11, 62, 74, 0.25)",
-      "border": "rgba(26, 206, 199, 0.12)",
-      "blur": 10,
+      "bg": "#A45A2A",
       "text": "#F4F9FF",
-      "label": "#F6D087",
-      "accent": "#FFC04D",
-      "font": {
-        "family": "Laguna Grotesk",
-        "files": [
-          {
-            "src": "fonts/laguna-grotesk.woff2",
-            "weight": "400",
-            "style": "normal"
-          }
-        ]
-      }
+      "label": "#FFC04D",
+      "accent": "#2CCCD3"
     },
-    "glass": {
-      "blur": 26,
-      "tint": 0.16
-    },
-    "accent": "#FFC04D",
-    "accent2": "#FF8A3D"
-  },
-  "audio": {
-    "ambient": "", 
-    "effects": {
-      "spin": "",           
-      "reelStop": "",       
-      "win": "",            
-      "bigWin": "",         
-      "jackpot": "",        
-      "buttonClick": "",    
-      "error": ""           
-    }
+    "accent": "#FF8A3D",
+    "accent2": "#2F9E5B"
   }
 }

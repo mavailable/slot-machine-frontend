@@ -1,0 +1,46 @@
+{
+  "id": "dragon-siege-fortress",
+  "name": "Dragon Siege Fortress",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/belier-renforce.png",
+    "symbols/braises-ardentes.png",
+    "symbols/catapulte-chargee.png",
+    "symbols/chaines-rivetees.png",
+    "symbols/chaudron-d-huile.png",
+    "symbols/cle-de-herse.png",
+    "symbols/ecailles-de-dragon.png",
+    "symbols/ecusson-patine.png",
+    "symbols/emeraude-sertie.png",
+    "symbols/herse-de-fer.png",
+    "symbols/levier-de-pierre.png",
+    "symbols/rouage-patine.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/stone-battlements-dusk.jpg",
+      "color": "#0F1116",
+      "gradient": "linear-gradient(180deg,#0F1116 0%,#1B1F26 100%)"
+    },
+    "hud": {
+      "bg": "rgba(15,17,22,0.72)",
+      "text": "#F2EDE0",
+      "label": "#CFC8B6",
+      "accent": "#E0701A",
+      "blur": 12
+    },
+    "glass": {
+      "blur": 8,
+      "tint": "rgba(15,17,22,0.35)"
+    },
+    "accent": "#E0701A",
+    "accent2": "#8B1425"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

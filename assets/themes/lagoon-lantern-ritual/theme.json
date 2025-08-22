@@ -1,0 +1,46 @@
+{
+  "id": "lagoon-lantern-ritual",
+  "name": "Lagoon Lantern Ritual",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/base-flottante.png",
+    "symbols/coquille-polie.png",
+    "symbols/flamme-doree.png",
+    "symbols/lanterne-lotus.png",
+    "symbols/motif-ecaille.png",
+    "symbols/n-ud-de-recif.png",
+    "symbols/pagaie-en-bois.png",
+    "symbols/perle-de-lune.png",
+    "symbols/sceau-des-vagues.png",
+    "symbols/spirale-coralline.png",
+    "symbols/tige-de-bambou.png",
+    "symbols/verre-turquoise.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/background.jpg",
+      "color": "",
+      "gradient": "radial-gradient(120% 120% at 70% 30%, #0E3036 0%, #071F24 70%)"
+    },
+    "hud": {
+      "bg": "rgba(6,24,28,0.72)",
+      "text": "#EAF7F6",
+      "label": "#A4E3D4",
+      "accent": "#39E2B0",
+      "blur": 14
+    },
+    "glass": {
+      "blur": 12,
+      "tint": "rgba(7,31,36,0.35)"
+    },
+    "accent": "#FF6FB5",
+    "accent2": "#39E2B0"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

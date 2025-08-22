@@ -1,0 +1,46 @@
+{
+  "id": "ancient-egypt",
+  "name": "Égypte antique",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/ankh-symbol.png",
+    "symbols/desert-pyramid.png",
+    "symbols/eye-of-horus.png",
+    "symbols/faience-bead.png",
+    "symbols/khopesh-blade.png",
+    "symbols/lapis-gem.png",
+    "symbols/lotus-blossom.png",
+    "symbols/ostrich-feather.png",
+    "symbols/papyrus-scroll.png",
+    "symbols/scarab-beetle.png",
+    "symbols/sealed-canopic-jar.png",
+    "symbols/uraeus-cobra.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/background.jpg",
+      "color": "#1F1A12",
+      "gradient": ""
+    },
+    "hud": {
+      "bg": "rgba(20,16,10,0.78)",
+      "text": "#F8F5E9",
+      "label": "#C6A24A",
+      "accent": "#2D6E6E",
+      "blur": 12
+    },
+    "glass": {
+      "blur": 10,
+      "tint": "rgba(242,230,201,0.18)"
+    },
+    "accent": "#C6A24A",
+    "accent2": "#2D6E6E"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

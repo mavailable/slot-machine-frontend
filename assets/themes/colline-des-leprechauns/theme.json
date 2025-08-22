@@ -1,0 +1,28 @@
+{
+  "id": "colline-des-leprechauns",
+  "name": "Colline des Leprechauns",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(10,35,28,0.92)",
+      "text": "#F5F1DE",
+      "label": "#C8A25E",
+      "accent": "#EDC356"
+    },
+    "accent": "#EDC356",
+    "accent2": "#F5C77A"
+  }
+}

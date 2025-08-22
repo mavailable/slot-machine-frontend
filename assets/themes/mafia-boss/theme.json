@@ -1,0 +1,28 @@
+{
+  "id": "mafia-boss",
+  "name": "Mafia Boss",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(13,25,38,0.85)",
+      "text": "#EAE3CF",
+      "label": "#B7B7C3",
+      "accent": "#D4AF37"
+    },
+    "accent": "#D4AF37",
+    "accent2": "#157A6E"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "diamond-vault-raid",
+  "name": "Diamond Vault Raid",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/blue-lion.png",
+    "symbols/carte-d-acces.png",
+    "symbols/cle-en-titane.png",
+    "symbols/cutter-a-verre.png",
+    "symbols/diamant-taille-brillant.png",
+    "symbols/emprunte-digitale.png",
+    "symbols/lingots-empiles.png",
+    "symbols/masque-noir-mat.png",
+    "symbols/perceuse-compacte.png",
+    "symbols/porte-de-coffre.png",
+    "symbols/sac-de-butin.png",
+    "symbols/serrure.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.jpg",
+      "color": "#0B0F19",
+      "gradient": "linear-gradient(180deg, #0B0F19 0%, #151B28 100%)"
+    },
+    "hud": {
+      "bg": "rgba(11,15,25,0.68)",
+      "text": "#E6F1FF",
+      "label": "#9FB3C8",
+      "accent": "#2FD3F5",
+      "blur": 14
+    },
+    "glass": {
+      "blur": 12,
+      "tint": "rgba(21,27,40,0.55)"
+    },
+    "accent": "#2FD3F5",
+    "accent2": "#F6C65B"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

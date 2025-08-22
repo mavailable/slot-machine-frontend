@@ -1,0 +1,28 @@
+{
+  "id": "jungle-jackpot",
+  "name": "Jungle Jackpot",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(14, 46, 33, 0.9)",
+      "text": "#E8FFF1",
+      "label": "#F3C84A",
+      "accent": "#FF7A1A"
+    },
+    "accent": "#F3C84A",
+    "accent2": "#18A05B"
+  }
+}

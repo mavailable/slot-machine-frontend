@@ -1,0 +1,46 @@
+{
+  "id": "grand-illusion-theater",
+  "name": "Grand Théâtre des Illusions",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/baguette-noire-doree.png",
+    "symbols/cle-doree-ornee.png",
+    "symbols/coffre-a-double-fond.png",
+    "symbols/dos-de-cartes-damasse.png",
+    "symbols/emeraude-ovale-brillante.png",
+    "symbols/foulard-soyeux-ecarlate.png",
+    "symbols/fumee-tourbillonnante.png",
+    "symbols/gants-blancs-satin.png",
+    "symbols/projecteur-de-scene.png",
+    "symbols/rideau-velours-cramoisi.png",
+    "symbols/rubis-taille-coussin.png",
+    "symbols/serrure-baroque-doree.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "",
+      "color": "#0E0A12",
+      "gradient": "linear-gradient(180deg,#0E0A12 0%,#1C1016 100%)"
+    },
+    "hud": {
+      "bg": "rgba(14,10,18,0.6)",
+      "text": "#F5EDE3",
+      "label": "#D9A441",
+      "accent": "#B01724",
+      "blur": 12
+    },
+    "glass": {
+      "blur": 10,
+      "tint": "rgba(28,16,22,0.35)"
+    },
+    "accent": "#B01724",
+    "accent2": "#D9A441"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

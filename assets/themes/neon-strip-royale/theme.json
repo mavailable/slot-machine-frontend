@@ -1,0 +1,42 @@
+{
+  "id": "neon-strip-royale",
+  "name": "Neon Strip Royale",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/carte-a-pique.png",
+    "symbols/couronne-royale.png",
+    "symbols/de-lumineux.png",
+    "symbols/fer-a-cheval.png",
+    "symbols/jeton-dore.png",
+    "symbols/pince-a-billets.png",
+    "symbols/rateau-de-roulette.png",
+    "symbols/roue-de-roulette.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "",
+      "color": "#0B0E17",
+      "gradient": "linear-gradient(180deg, #0B0E17 0%, #141B29 100%)"
+    },
+    "hud": {
+      "bg": "rgba(12,16,26,0.72)",
+      "text": "#F5F7FA",
+      "label": "#C7D2E4",
+      "accent": "#FFD166",
+      "blur": 14
+    },
+    "glass": {
+      "blur": 18,
+      "tint": "rgba(20,27,41,0.35)"
+    },
+    "accent": "#FFD166",
+    "accent2": "#00E5FF"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

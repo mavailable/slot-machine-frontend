@@ -1,0 +1,46 @@
+{
+  "id": "norse-legends",
+  "name": "Norse Legends",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/aurora-banner.png",
+    "symbols/compass-rune.png",
+    "symbols/drinking-horn.png",
+    "symbols/frost-crystal.png",
+    "symbols/golden-shield.png",
+    "symbols/knotwork-circle.png",
+    "symbols/longship-silhouette.png",
+    "symbols/raven-feather.png",
+    "symbols/runic-hammer.png",
+    "symbols/serpent-bracelet.png",
+    "symbols/spear-tip.png",
+    "symbols/wolf-paw-emblem.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/aurora-fjord.png",
+      "color": "#0A1118",
+      "gradient": "linear-gradient(180deg, #0A1118 0%, #18222B 55%, #0A1118 100%)"
+    },
+    "hud": {
+      "bg": "rgba(12,22,30,0.8)",
+      "text": "#E8F1F9",
+      "label": "#A6B6C3",
+      "accent": "#89D2E6",
+      "blur": 10
+    },
+    "glass": {
+      "blur": 14,
+      "tint": "rgba(10,17,24,0.4)"
+    },
+    "accent": "#89D2E6",
+    "accent2": "#C4A15A"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

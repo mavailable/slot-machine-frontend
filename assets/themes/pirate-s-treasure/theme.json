@@ -1,0 +1,28 @@
+{
+  "id": "pirate-s-treasure",
+  "name": "Pirate’s Treasure",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(22,14,10,0.88)",
+      "text": "#f4eddc",
+      "label": "#e6b253",
+      "accent": "#1c7f61"
+    },
+    "accent": "#d1a144",
+    "accent2": "#1c7f61"
+  }
+}

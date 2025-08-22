@@ -1,0 +1,45 @@
+{
+  "id": "lucky-irish",
+  "name": "Lucky Irish",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/arc-en-ciel-nacre.png",
+    "symbols/broche-trefle.png",
+    "symbols/champignon-tachete.png",
+    "symbols/chapeau-a-boucle.png",
+    "symbols/chaudron-dore.png",
+    "symbols/emeraude-facettee.png",
+    "symbols/fer-a-cheval.png",
+    "symbols/harp-celtique.png",
+    "symbols/n-ud-celtique.png",
+    "symbols/piece-doree.png",
+    "symbols/trefle-chanceux.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "",
+      "color": "#0C2A1E",
+      "gradient": "linear-gradient(180deg,#0C2A1E 0%,#155E46 100%)"
+    },
+    "hud": {
+      "bg": "rgba(12,42,30,0.75)",
+      "text": "#F2F7F3",
+      "label": "#CFE7DA",
+      "accent": "#FFD24A",
+      "blur": 12
+    },
+    "glass": {
+      "blur": 10,
+      "tint": "rgba(12,42,30,0.35)"
+    },
+    "accent": "#FFD24A",
+    "accent2": "#E53935"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

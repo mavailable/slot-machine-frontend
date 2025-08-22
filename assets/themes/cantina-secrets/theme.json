@@ -1,0 +1,46 @@
+{
+  "id": "cantina-secrets",
+  "name": "Cantina Secrets",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/amber-cabochon-gem.png",
+    "symbols/bar-tap-handle.png",
+    "symbols/brass-skeleton-key.png",
+    "symbols/cut-glass-whiskey-tumbler.png",
+    "symbols/geometric-tile-rosette.png",
+    "symbols/green-neon-arrow.png",
+    "symbols/locked-leather-ledger.png",
+    "symbols/neon-martini-glass.png",
+    "symbols/patterned-card-back.png",
+    "symbols/slim-lockpick-set.png",
+    "symbols/stacked-poker-chips.png",
+    "symbols/struck-matchbook.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/background.jpg",
+      "color": "#0E0F14",
+      "gradient": ""
+    },
+    "hud": {
+      "bg": "rgba(20,22,29,0.74)",
+      "text": "#FFFFFF",
+      "label": "#B0B6C3",
+      "accent": "#2DE2E6",
+      "blur": 14
+    },
+    "glass": {
+      "blur": 10,
+      "tint": "rgba(20,22,29,0.38)"
+    },
+    "accent": "#2DE2E6",
+    "accent2": "#FF4D9D"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

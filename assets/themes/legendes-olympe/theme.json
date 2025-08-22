@@ -1,0 +1,28 @@
+{
+  "id": "legendes-olympe",
+  "name": "Légendes de l’Olympe",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(8,16,32,0.78)",
+      "text": "#F6F2E7",
+      "label": "#E3C55A",
+      "accent": "#2FD3FF"
+    },
+    "accent": "#D4B254",
+    "accent2": "#2FD3FF"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "arabian-nights",
+  "name": "Arabian Nights",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(6, 13, 35, 0.78)",
+      "text": "#F5C755",
+      "label": "#D8A84D",
+      "accent": "#36D9FF"
+    },
+    "accent": "#F5C755",
+    "accent2": "#B8242A"
+  }
+}

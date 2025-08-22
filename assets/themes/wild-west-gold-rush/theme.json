@@ -1,0 +1,28 @@
+{
+  "id": "wild-west-gold-rush",
+  "name": "Wild West Gold Rush",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(43, 32, 25, 0.92)",
+      "text": "#FFF2C9",
+      "label": "#D7B07A",
+      "accent": "#E6B84A"
+    },
+    "accent": "#E6B84A",
+    "accent2": "#8C4B24"
+  }
+}

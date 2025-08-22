@@ -1,0 +1,27 @@
+{
+  "id": "cyberpunk-city",
+  "name": "Cyberpunk City",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(10,15,20,0.88)",
+      "text": "#EAFBFF",
+      "label": "#00BBD4",
+      "accent": "#00E6FF"
+    },
+    "accent": "#00E6FF",
+    "accent2": "#FF2DAA"
+  }
+}

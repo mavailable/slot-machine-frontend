@@ -1,0 +1,46 @@
+{
+  "id": "medieval-market-mystery",
+  "name": "Mystère du marché médiéval",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/balance-de-marchand.png",
+    "symbols/bourse-en-cuir.png",
+    "symbols/clef-forgee.png",
+    "symbols/ecu-heraldique-vert.png",
+    "symbols/emeraude-taillee.png",
+    "symbols/grenat-brut.png",
+    "symbols/jeton-en-bronze.png",
+    "symbols/lanterne-en-fer.png",
+    "symbols/parchemin-scelle.png",
+    "symbols/planche-de-chene.png",
+    "symbols/sceau-de-cire.png",
+    "symbols/toile-rayee-verte.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/background.jpg",
+      "color": "#2B1E14",
+      "gradient": "linear-gradient(180deg, #2B1E14 0%, #1E140D 100%)"
+    },
+    "hud": {
+      "bg": "rgba(30,22,16,0.72)",
+      "text": "#F4E9D2",
+      "label": "#E0C79A",
+      "accent": "#D58A1F",
+      "blur": 10
+    },
+    "glass": {
+      "blur": 8,
+      "tint": "rgba(17,12,8,0.35)"
+    },
+    "accent": "#D58A1F",
+    "accent2": "#2F5E3B"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop-wood.wav",
+    "win_small": "audio/win-small-coins.wav",
+    "win_big": "audio/win-big-fanfare.wav",
+    "ui_click": "audio/ui-click-wood.wav"
+  }
+}

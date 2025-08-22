@@ -1,0 +1,46 @@
+{
+  "id": "alchemists-secret-workshop",
+  "name": "L'Atelier Secret de l'Alchimiste",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/cle-squelettique.png",
+    "symbols/coffret-verrouille.png",
+    "symbols/cornue-en-cuivre.png",
+    "symbols/fiole-emeraude.png",
+    "symbols/gemme-hexagonale.png",
+    "symbols/lingot-de-cuivre.png",
+    "symbols/mortier-et-pilon.png",
+    "symbols/parchemin-scelle.png",
+    "symbols/racine-torsadee.png",
+    "symbols/rouage-patine.png",
+    "symbols/rune-gravee.png",
+    "symbols/sceau-de-cire.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/background.jpg",
+      "color": "#0E0D0A",
+      "gradient": "linear-gradient(180deg, #0E0D0A 0%, #0E0D0A 100%)"
+    },
+    "hud": {
+      "bg": "rgba(16,13,10,0.72)",
+      "text": "#F7F2E8",
+      "label": "#E9DDBB",
+      "accent": "#B6772E",
+      "blur": 12
+    },
+    "glass": {
+      "blur": 18,
+      "tint": "rgba(14,13,10,0.35)"
+    },
+    "accent": "#B6772E",
+    "accent2": "#2E6F6C"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

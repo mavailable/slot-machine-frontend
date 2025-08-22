@@ -1,0 +1,28 @@
+{
+  "id": "lucky-tiger",
+  "name": "Lucky Tiger",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(6, 38, 28, 0.88)",
+      "text": "#f3f1e8",
+      "label": "#f5d38a",
+      "accent": "#d4af37"
+    },
+    "accent": "#d4af37",
+    "accent2": "#b24fa0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "arene-des-gladiateurs",
+  "name": "Arène des Gladiateurs",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(30,27,24,0.88)",
+      "text": "#E9E2D0",
+      "label": "#D4AF37",
+      "accent": "#8FB4D9"
+    },
+    "accent": "#A3733A",
+    "accent2": "#D4AF37"
+  }
+}

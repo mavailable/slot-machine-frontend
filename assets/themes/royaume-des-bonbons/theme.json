@@ -1,0 +1,28 @@
+{
+  "id": "royaume-des-bonbons",
+  "name": "Royaume des Bonbons",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(34,12,64,0.88)",
+      "text": "#fffaf5",
+      "label": "#ffe3ff",
+      "accent": "#ffd24a"
+    },
+    "accent": "#3be7d6",
+    "accent2": "#d9892b"
+  }
+}

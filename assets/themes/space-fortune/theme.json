@@ -1,0 +1,28 @@
+{
+  "id": "space-fortune",
+  "name": "Space Fortune",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(10, 18, 44, 0.86)",
+      "text": "#f4f8ff",
+      "label": "#f0c65a",
+      "accent": "#35e4ff"
+    },
+    "accent": "#f0c65a",
+    "accent2": "#ff8a3a"
+  }
+}

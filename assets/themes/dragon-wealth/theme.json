@@ -1,0 +1,46 @@
+{
+  "id": "dragon-wealth",
+  "name": "Dragon Wealth",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/disque-de-jade.png",
+    "symbols/ecaille-doree.png",
+    "symbols/embleme-dragon.png",
+    "symbols/encensoir-dore.png",
+    "symbols/eventail-laque.png",
+    "symbols/gong-martele.png",
+    "symbols/lanterne-rouge.png",
+    "symbols/lingot-d-or.png",
+    "symbols/n-ud-mystique.png",
+    "symbols/nuages-stylises.png",
+    "symbols/perle-mystique.png",
+    "symbols/piece-trou-carre.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "",
+      "color": "#0F0608",
+      "gradient": "radial-gradient(50% 50% at 50% 40%, #1B0B0F 0%, #0F0608 100%)"
+    },
+    "hud": {
+      "bg": "rgba(15,6,8,0.78)",
+      "text": "#F6EDE1",
+      "label": "#D4AF37",
+      "accent": "#C71F1F",
+      "blur": 14
+    },
+    "glass": {
+      "blur": 12,
+      "tint": "rgba(27,11,15,0.32)"
+    },
+    "accent": "#C71F1F",
+    "accent2": "#D4AF37"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

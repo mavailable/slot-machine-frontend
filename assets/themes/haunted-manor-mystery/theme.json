@@ -1,0 +1,46 @@
+{
+  "id": "haunted-manor-mystery",
+  "name": "Haunted Manor Mystery",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/bougie-fondue.png",
+    "symbols/cachet-de-cire.png",
+    "symbols/cle-squelettique.png",
+    "symbols/eclat-de-miroir.png",
+    "symbols/engrenage-rouille.png",
+    "symbols/fiole-d-ectoplasme.png",
+    "symbols/heurtoir-en-fer.png",
+    "symbols/journal-verrouille.png",
+    "symbols/medaillon-maudit.png",
+    "symbols/plume-de-corbeau.png",
+    "symbols/rosace-vitrail.png",
+    "symbols/sceau-spirituel.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "",
+      "color": "",
+      "gradient": "radial-gradient(70% 70% at 50% 35%, #1B1E26 0%, #0F1217 70%)"
+    },
+    "hud": {
+      "bg": "rgba(23,26,34,0.72)",
+      "text": "#EAE5D6",
+      "label": "#CFC8B7",
+      "accent": "#D6A867",
+      "blur": 16
+    },
+    "glass": {
+      "blur": 12,
+      "tint": "rgba(15,18,23,0.48)"
+    },
+    "accent": "#9AD39A",
+    "accent2": "#D6A867"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sugar-parade-candy-carnival",
+  "name": "Parade Sucrée : Carnaval de Bonbons",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/blason-caramel.png",
+    "symbols/canne-rayee.png",
+    "symbols/etoile-en-sucre.png",
+    "symbols/gemme-gelifiee.png",
+    "symbols/glacage-zigzag.png",
+    "symbols/goutte-de-caramel.png",
+    "symbols/guirlande-de-bonbons.png",
+    "symbols/nuage-de-sucre.png",
+    "symbols/pelle-a-sucre.png",
+    "symbols/ruban-de-reglisse.png",
+    "symbols/sucette-torsadee.png",
+    "symbols/tambour-de-parade.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/background.jpg",
+      "color": "",
+      "gradient": "linear-gradient(180deg, #FFF7FB 0%, #FFFFFF 100%)"
+    },
+    "hud": {
+      "bg": "rgba(18,24,32,0.78)",
+      "text": "#FFFFFF",
+      "label": "#C7D1DE",
+      "accent": "#FF4FB6",
+      "blur": 14
+    },
+    "glass": {
+      "blur": 10,
+      "tint": "rgba(255,255,255,0.35)"
+    },
+    "accent": "#FF4FB6",
+    "accent2": "#35C3FF"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

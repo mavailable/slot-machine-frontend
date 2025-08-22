@@ -1,0 +1,28 @@
+{
+  "id": "las-vegas-nights",
+  "name": "Las Vegas Nights",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(7, 11, 24, 0.85)",
+      "text": "#FFFFFF",
+      "label": "#F2C230",
+      "accent": "#FF2FB3"
+    },
+    "accent": "#2E6BFF",
+    "accent2": "#6D1FA6"
+  }
+}

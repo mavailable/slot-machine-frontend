@@ -1,0 +1,46 @@
+{
+  "id": "pirate-cove",
+  "name": "Pirate Cove",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/brass-spyglass.png",
+    "symbols/cannonball-stack.png",
+    "symbols/compass-rose.png",
+    "symbols/crossbones-coin.png",
+    "symbols/crossed-cutlasses.png",
+    "symbols/padlocked-chest.png",
+    "symbols/rope-knot-loop.png",
+    "symbols/rum-barrel.png",
+    "symbols/rusted-anchor.png",
+    "symbols/sea-glass-gem.png",
+    "symbols/ship-wheel.png",
+    "symbols/weathered-map-scrap.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/pirate-cove-moonlit-cove.jpg",
+      "color": "#0B1D2A",
+      "gradient": ""
+    },
+    "hud": {
+      "bg": "rgba(14,36,51,0.82)",
+      "text": "#F2E9D0",
+      "label": "#A6C5D4",
+      "accent": "#D4A017",
+      "blur": 12
+    },
+    "glass": {
+      "blur": 6,
+      "tint": "rgba(11,29,42,0.35)"
+    },
+    "accent": "#D4A017",
+    "accent2": "#B6463D"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small-chime.wav",
+    "win_big": "audio/win-big-fanfare.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

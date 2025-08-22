@@ -1,0 +1,46 @@
+{
+  "id": "mythical-olympus",
+  "name": "Mythical Olympus",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/bronze-shield.png",
+    "symbols/divine-thunderbolt.png",
+    "symbols/golden-amphora.png",
+    "symbols/golden-lyre.png",
+    "symbols/laurel-wreath.png",
+    "symbols/marble-column.png",
+    "symbols/meander-motif.png",
+    "symbols/oil-lamp.png",
+    "symbols/olive-branch.png",
+    "symbols/sapphire-gem.png",
+    "symbols/trident-emblem.png",
+    "symbols/winged-sandal.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/background.jpg",
+      "color": "",
+      "gradient": ""
+    },
+    "hud": {
+      "bg": "rgba(12,22,40,0.72)",
+      "text": "#F2F5FA",
+      "label": "#E9C46A",
+      "accent": "#D4AF37",
+      "blur": 12
+    },
+    "glass": {
+      "blur": 14,
+      "tint": "rgba(245,241,230,0.38)"
+    },
+    "accent": "#D4AF37",
+    "accent2": "#5BA7E1"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

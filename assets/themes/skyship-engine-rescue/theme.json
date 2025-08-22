@@ -1,0 +1,46 @@
+{
+  "id": "skyship-engine-rescue",
+  "name": "Sauvetage du Vaisseau Céleste",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/aiguille-d-altimetre.png",
+    "symbols/cle-a-molette.png",
+    "symbols/eclair-stylise.png",
+    "symbols/ecusson-aile.png",
+    "symbols/engrenage-laiton.png",
+    "symbols/gemme-turquoise.png",
+    "symbols/grille-d-aeration.png",
+    "symbols/helice-tripale.png",
+    "symbols/jauge-de-pression.png",
+    "symbols/panache-de-fumee.png",
+    "symbols/rivets-sur-plaque.png",
+    "symbols/soupape-scellee.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/background.jpg",
+      "color": "",
+      "gradient": "linear-gradient(180deg, #101418 0%, #1E262D 100%)"
+    },
+    "hud": {
+      "bg": "rgba(16,20,24,0.78)",
+      "text": "#E8E3D6",
+      "label": "#B4BDC6",
+      "accent": "#C49A45",
+      "blur": 12
+    },
+    "glass": {
+      "blur": 18,
+      "tint": "rgba(16,20,24,0.35)"
+    },
+    "accent": "#C49A45",
+    "accent2": "#3FA1C6"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

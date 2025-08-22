@@ -1,0 +1,28 @@
+{
+  "id": "royal-circus",
+  "name": "Royal Circus",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(14,42,72,0.9)",
+      "text": "#F6E0B6",
+      "label": "#F2C14B",
+      "accent": "#C7312E"
+    },
+    "accent": "#F2C14B",
+    "accent2": "#2BA6A6"
+  }
+}

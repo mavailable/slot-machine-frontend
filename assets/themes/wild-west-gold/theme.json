@@ -1,0 +1,43 @@
+{
+  "id": "wild-west-gold",
+  "name": "Or de l'Ouest",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/dynamite-bundle.png",
+    "symbols/gold-nugget.png",
+    "symbols/gold-pan.png",
+    "symbols/horseshoe-iron.png",
+    "symbols/lasso-coil.png",
+    "symbols/pickaxe-head.png",
+    "symbols/saloon-doors.png",
+    "symbols/sheriff-star-badge.png",
+    "symbols/silver-spur.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "",
+      "color": "",
+      "gradient": "linear-gradient(180deg, #2B241E 0%, #17120E 100%)"
+    },
+    "hud": {
+      "bg": "rgba(23,18,14,0.62)",
+      "text": "#F7E1B5",
+      "label": "#E7D3A6",
+      "accent": "#D39B00",
+      "blur": 12
+    },
+    "glass": {
+      "blur": 10,
+      "tint": "rgba(23,18,14,0.35)"
+    },
+    "accent": "#D39B00",
+    "accent2": "#B44A2C"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

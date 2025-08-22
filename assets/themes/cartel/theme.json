@@ -1,0 +1,46 @@
+{
+  "id": "cartel-vault",
+  "name": "Cartel",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/banded-cash-stack.png",
+    "symbols/bolt-cutters.png",
+    "symbols/brass-skeleton-key.png",
+    "symbols/camera-dome.png",
+    "symbols/circuit-fuse-switch.png",
+    "symbols/emerald-cut-gem.png",
+    "symbols/heavy-padlock.png",
+    "symbols/marigold-bloom.png",
+    "symbols/radio-handset.png",
+    "symbols/teal-tile-rosette.png",
+    "symbols/terracotta-shard.png",
+    "symbols/vault-wheel.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/background.jpg",
+      "color": "",
+      "gradient": "linear-gradient(160deg,#D9C5A6 0%,#F1E7D6 100%)"
+    },
+    "hud": {
+      "bg": "rgba(24,20,16,0.86)",
+      "text": "#F5EBDD",
+      "label": "#E6D2B0",
+      "accent": "#C8A038",
+      "blur": 14
+    },
+    "glass": {
+      "blur": 12,
+      "tint": "rgba(217,197,166,0.22)"
+    },
+    "accent": "#C8A038",
+    "accent2": "#2E6F68"
+  },
+  "audio": {
+    "spin_start": "audio/spin-start.wav",
+    "spin_stop": "audio/spin-stop.wav",
+    "win_small": "audio/win-small.wav",
+    "win_big": "audio/win-big.wav",
+    "ui_click": "audio/ui-click.wav"
+  }
+}

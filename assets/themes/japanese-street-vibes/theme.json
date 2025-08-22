@@ -1,0 +1,28 @@
+{
+  "id": "japanese-street-vibes",
+  "name": "Japanese Street Vibes",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(9,15,32,0.86)",
+      "text": "#EAF7FF",
+      "label": "#FFD54A",
+      "accent": "#22E4FF"
+    },
+    "accent": "#FF3D9B",
+    "accent2": "#7A3CFF"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "alien-casino",
+  "name": "Alien Casino",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(16, 24, 74, 0.78)",
+      "text": "#eaf7ff",
+      "label": "#2fe7d9",
+      "accent": "#a8ff00"
+    },
+    "accent": "#2fe7d9",
+    "accent2": "#ffd166"
+  }
+}

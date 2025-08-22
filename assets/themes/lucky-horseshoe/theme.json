@@ -1,0 +1,28 @@
+{
+  "id": "lucky-horseshoe",
+  "name": "Lucky Horseshoe",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "rgba(42, 28, 17, 0.92)",
+      "text": "#FFF3D6",
+      "label": "#C79A2E",
+      "accent": "#E1B646"
+    },
+    "accent": "#E1B646",
+    "accent2": "#2E6B3A"
+  }
+}

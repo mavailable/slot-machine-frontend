@@ -1,0 +1,28 @@
+{
+  "id": "pharaoh-s-gold",
+  "name": "Pharaoh’s Gold",
+  "symbolsType": "image",
+  "symbols": [
+    "symbols/symbol-01.png",
+    "symbols/symbol-02.png",
+    "symbols/symbol-03.png",
+    "symbols/symbol-04.png",
+    "symbols/symbol-05.png",
+    "symbols/symbol-06.png",
+    "symbols/symbol-07.png",
+    "symbols/symbol-08.png"
+  ],
+  "ui": {
+    "background": {
+      "image": "background/bg.webp"
+    },
+    "hud": {
+      "bg": "#0f0904",
+      "text": "#ffe6b3",
+      "label": "#e6b24a",
+      "accent": "#a13a22"
+    },
+    "accent": "#d8a042",
+    "accent2": "#2e7b75"
+  }
+}

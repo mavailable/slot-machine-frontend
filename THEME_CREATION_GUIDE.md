@@ -458,7 +458,7 @@ audio/
 ├─ reel-stop.wav      # Son d'arrêt d'un rouleau
 ├─ win-small.mp3      # Petite victoire
 ├─ win-big.mp3        # Grosse victoire
-├─ win-jackpot.mp3    # Jackpot
+├─ jackpot.mp3        # Jackpot
 └─ button-click.wav   # Clic de bouton
 ```
 
@@ -483,15 +483,39 @@ audio/
     "reelStop": "audio/reel-stop.wav",
     "win": "audio/win-small.mp3",
     "bigWin": "audio/win-big.mp3",
-    "jackpot": "audio/win-jackpot.mp3",
+    "jackpot": "audio/jackpot.mp3",
     "buttonClick": "audio/button-click.wav", // alias: click
     "error": "audio/error.wav"
   }
 }
 ```
 - Toutes les clés sont optionnelles.
-- Si une clé est absente, un **bip synthétique** intégré sera joué en fallback.
-- Une musique d'**ambiance** peut démarrer après déverrouillage (badge RFID).
+- Si une clé est absente, le moteur essaie d’abord un **son global par défaut** (voir `assets/audio/`), puis tombe sur un **bip synthétique** si rien n’est disponible.
+- Une musique d’**ambiance** peut démarrer après déverrouillage (badge RFID).
+
+### Priorité des sources et sons globaux
+Ordre de recherche pour chaque événement audio:
+1. Son déclaré par le thème (`assets/themes/<id>/theme.json`)
+2. Son global par défaut (`assets/audio/...`)
+3. Bip synthétique intégré
+
+Noms de fichiers globaux reconnus (essayés dans cet ordre):
+- button-click.wav, button-click.mp3
+- spin-start.wav, spin-start.mp3
+- reel-stop.wav, reel-stop.mp3
+- win-small.mp3, win-small.wav
+- win-big.mp3, win-big.wav
+- jackpot.mp3, jackpot.wav
+- error.wav, error.mp3
+- ambient.mp3, ambient.ogg, ambient.wav
+
+### Quand les sons sont joués
+- buttonClick: au pointerdown des boutons START/HOLD et via raccourcis clavier (Espace, S/D/F/G/H)
+- spin: au démarrage d’un spin
+- reelStop: à l’arrêt de chaque rouleau (5 fois par spin)
+- win / bigWin / jackpot: à la fin d’un spin selon le multiplicateur (≥3 / ≥4 / ≥5 symboles alignés)
+- error: si badge RFID non détecté ou crédits insuffisants
+- ambient (boucle): démarre après détection RFID si présent
 
 ---
 

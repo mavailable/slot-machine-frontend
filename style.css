@@ -281,10 +281,12 @@ body.ui-hidden .hud-card .hud-grid{
     inset 0 0 8px rgba(255, 255, 255, 0.08);
 }
 
+/* IMPORTANT: Do not animate transform on .reel-inner while spinning.
+   JavaScript controls the translateY for deterministic final placement. */
 .reel.spinning .reel-inner {
+  /* Removed transform animation to avoid overriding JS inline transforms */
   transform-style: preserve-3d;
-  /* Animation de rotation continue et rapide pour effet de défilement */
-  animation: spinRotationFast 0.06s linear infinite;
+  animation: none !important;
 }
 
 @keyframes spinRotationFast {
